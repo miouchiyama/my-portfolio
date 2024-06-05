@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mio's Portfolio</title>
   </head>
   <body>
     <header>
       <h1>MIO UCHIYAMA's Portfolio</h1>
     </header>
-    <div class="aboutme_container">
+    <section class="aboutme_container">
+      <div class="image">
+        <img src="./myphoto.jpeg" alt="写真" />
+      </div>
       <h1>About Me</h1>
       <p>基本情報</p>
       <p>名前：内山三緒（うちやま　みお）</p>
@@ -23,21 +27,38 @@
       <p>大学：一橋大学商学部4年</p>
       <p>趣味：スポーツ、洋楽、お笑い</p>
       <p></p>
-    </div>
-    <div class="hobby_container">
+    </section>
+    <section class="hobby_container">
       <h1>Sports</h1>
       <div class="each-box">Tennis</div>
       <div class="each-box">Free Skate</div>
-    </div>
-    <div class="hobby_container">
+    </section>
+    <section class="hobby_container">
       <h1>Music</h1>
       <div class="each-box">Ed Sheeran</div>
       <div class="each-box">Taylor Swift</div>
-    </div>
-    <div class="hobby_container">
+    </section>
+    <section class="hobby_container">
       <h1>Comedy</h1>
-      <div class="each-box">令和ロマン</div>
-      <div class="each-box">東京03</div>
+      <div class="each-box">
+        <a href="https://profile.yoshimoto.co.jp/talent/detail?id=6646"
+          >令和ロマン</a
+        >
+      </div>
+      <div class="each-box">東京03nanndedarou</div>
+    </section>
+
+    <div class="block">Block</div>
+
+    <span class="line">Line</span>
+    <span class="line">Line</span>
+    <span class="line">Line</span>
+
+    <div class="block">Block</div>
+
+    <div class="parent">
+      <div class="box"></div>
+      <div class="min-box"></div>
     </div>
 
     <script src="main.js"></script>
